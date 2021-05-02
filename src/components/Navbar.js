@@ -4,20 +4,6 @@ import './Navbar.css';
 import { Button } from './Button';
 
 function Navbar(){
-  // constructor(props){
-  //   super(props);
-
-  //   this.state={
-  //     click:'false'
-  //   }
-
-  // }
-  // // state={click:false}
-
-  // handleClick=()=>{
-  //   this.setState({click:!this.state.click})
-
-  // }
 
   const [click,setClick] = useState(false);
   const [button,setButton]= useState(false);
@@ -40,9 +26,6 @@ function Navbar(){
 
   window.addEventListener('resize',showButton);
 
-
-  
-  
     return(
       <React.Fragment>
         <nav className="navbar">
