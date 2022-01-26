@@ -11,10 +11,9 @@ function Home(){
     <HeroSection/>;
     <Cards/>
     <Footer/>
-
     </div>
   )
-
 }
+
 
 export default Home;
